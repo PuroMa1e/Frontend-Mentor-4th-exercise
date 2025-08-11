@@ -156,6 +156,8 @@ h1, .middlep, .bottomp{
     max-width: 550px;
     font-weight: 400;
     font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
 
 }
 
