@@ -1,0 +1,219 @@
+@font-face {
+    font-family: Poppins;
+    src: url(Poppins/Poppins-SemiBold.ttf);
+    font-weight: 600;
+
+}
+
+@font-face {
+
+    font-family: Poppins;
+    src: url(Poppins/Poppins-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+
+    font-family: Poppins;
+    src: url(Poppins/Poppins-ExtraLight.ttf);
+    font-weight: 200;
+
+}
+
+*{
+   
+    font-family: Poppins;
+    box-sizing: border-box;
+
+}
+
+main{
+
+color: hsl(234, 12%, 34%);
+
+}
+
+h1{
+
+    margin-bottom: -30px;
+    font-weight: 200;
+    margin-top: 50px;
+
+}
+
+body{
+    
+    background-color: rgb(250, 250, 250);
+    margin: 0;
+    min-height: 100vh;
+    height: 100%;
+
+}
+
+html{
+
+    height: 100%;
+
+}
+
+.div0{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.div01{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.div0 p{
+
+    max-width: 260px;
+    padding-left: 30px;
+
+}
+
+.div1, .div2, .div3 , .div4{
+
+    background-color: white;
+    height: 230px;
+    width: 330px;
+    border-radius: 5px;
+    margin: 20px;
+    font-weight: 600;
+
+}
+
+.div01{
+
+    margin:  10px 0 10px 0;
+
+}
+
+.div2{
+
+    margin-bottom: 10px;
+}
+
+.div0 img{
+    
+    padding-left: 240px;
+    padding-top: 20px;
+
+}
+
+.div1{
+
+    margin-right: 5px;
+    border-top: solid;
+    border-color: hsl(180, 62%, 55%);
+    box-shadow: 3px 7px 9px rgb(231, 231, 231);
+
+}
+
+.div2{
+
+    border-top: solid;
+    border-color: hsl(0, 78%, 62%);
+    box-shadow: 3px 7px 9px rgb(231, 231, 231);
+
+}
+
+.div3{
+
+    border-top: solid;
+    border-color: hsl(34, 97%, 64%);
+    box-shadow: 3px 7px 9px rgb(231, 231, 231);
+  
+}
+
+.div4{
+
+    margin-left: 5px;
+    border-top: solid;
+    border-color: hsl(212, 86%, 64%);
+    box-shadow: 3px 7px 9px rgb(231, 231, 231);
+
+}
+
+h1, .middlep, .bottomp{
+
+    text-align: center;
+    
+}
+
+.bottomp{
+    
+    margin: 20px auto 40px auto;
+    max-width: 550px;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+.middlep{
+
+    font-size: 30px;
+
+}
+
+.pbox{
+
+    font-weight: 200;
+    font-size: 13px;
+
+}
+
+@media(max-width: 1069px) {
+
+.div0{
+
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+.div1{
+
+    margin-right: 20px;
+    margin-bottom: 0;
+
+}
+
+.div4{
+
+    margin-left: 20px;
+    margin-top: 0;
+
+}
+
+}
+
+@media(max-width: 375px){
+
+.div0{
+
+    padding: 0;
+
+}
+
+.div1, .div2, .div3, .div4{
+
+    margin-left: 0;
+    margin-right: 0;
+
+}
+.bottomp{
+
+margin-bottom: 20px;
+
+}
+}
